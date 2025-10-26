@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/yrath/Downloads/MLOps Homework (3)/pipeline/mlruns/585861880498440730/models/m-e8ccf6abce284e6cbc18187f77999489/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.1
+model_id: m-e8ccf6abce284e6cbc18187f77999489
+model_size_bytes: 835
+model_uuid: m-e8ccf6abce284e6cbc18187f77999489
+prompts: null
+run_id: 9f049039de314536af2c59ce29963d83
+utc_time_created: '2025-10-26 18:03:31.603092'
